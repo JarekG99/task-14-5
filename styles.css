@@ -1,0 +1,56 @@
+
+.app {
+  margin: 0 auto;
+  width: 40%;
+  border: 1px solid #000;
+  text-align: center;
+}
+.contactItem {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin: 5px;
+  border: 1px solid green;
+}
+.contactDetails {
+  margin-left: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+p, a {
+  margin: 0;
+}
+.contactLabel {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.contactImage {
+  margin-left: 0;
+  width: 80px;
+  height:80px;
+}
+.contactForm {
+  padding: 8px 24px;
+}
+.contactForm > input {
+  display: inline-block;
+  width: 240px;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  font-size: 14px;
+}
+.btn {
+  width: 100px;
+  height: 28px;
+  background-color: #00B1DB;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+
+}
